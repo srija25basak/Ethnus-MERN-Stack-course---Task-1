@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File</title>
+    <style>
+
+        div{
+           width: 300px; height: 300px; margin: 0 auto;
+       }
+
+       label{
+           width: 100px;
+           display: inline-block;
+       }
+         form{
+           margin-right: auto;
+           margin-left: auto;
+           }
+
+           h3{
+               text-align: center;
+           }
+
+
+   </style>
+</head>
+<body>
+    <h3>Sample Form</h3>
+    <div style="align-items: center; width:fit-content ; padding: 10px;">
+       <form>
+        <table>
+            <tr>
+                <td><label for="Full Name">Full Name:</label></td>
+                <td><input type="text" id="Full Name" placeholder="Enter Full name"></td>
+            </tr>
+            <tr>    
+                <td><label for="Username">Username:</label></td>
+                <td><input type="text" id="Username" placeholder="Enter Username"></td>
+            </tr>
+            <tr>
+                <td><label for="Full Name">Password: </label></td> 
+                <td><input type="password" valur="Password" placeholder="Enter Password"></td>
+            </tr>
+            <tr>
+    
+                <td><label for="re-pass">Re Password:</label></td>
+                <td><input type="password" valur="Re Password" placeholder="Re Enter Password"></td> 
+            </tr> 
+            <tr>
+                <td><label for="Address">Address:</label></td> 
+                <td><textarea name="Address" placeholder="Address"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="Age">Age:</label></td>
+                <td><input type="number" value="Age" placeholder="Age"></td>
+            </tr>
+            <tr>
+                <td>   <label for="Gender">Gender:</label></td> 
+                <td>   <select for="Gender" id="Gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select></td>
+            </tr>
+         </table>
+                <input type="submit" placeholder="Submit">
+
+     
+
+      </form>
+    </div>
+
+</body>
+</html>
